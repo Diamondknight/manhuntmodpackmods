@@ -1,0 +1,580 @@
+[21:28:33] [main/INFO]: ModLauncher running: args [--username, AlexiosTheSixth, --version, forge-28.2.0, --gameDir, C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt, --assetsDir, C:\Users\Khristianopoplis\Twitch\Minecraft\Install\assets, --assetIndex, 1.14, --uuid, af67b9088a214b828864f6b915f2d3cf, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 28.2.0, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20190829.143755]
+[21:28:33] [main/INFO]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_51 by Oracle Corporation
+[21:28:33] [main/INFO]: OptiFineTransformationService.onLoad
+[21:28:33] [main/INFO]: OptiFine ZIP file: C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt\mods\OptiFine_1.14.4_HD_U_F5.jar
+[21:28:33] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[21:28:33] [main/INFO]: OptiFineTransformationService.initialize
+[21:28:34] [main/INFO]: OptiFineTransformationService.transformers
+[21:28:34] [main/INFO]: Targets: 244
+[21:28:34] [main/INFO]: additionalClassesLocator: [optifine., net.optifine.]
+[21:28:34] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-28.2.0, --gameDir, C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt, --assetsDir, C:\Users\Khristianopoplis\Twitch\Minecraft\Install\assets, --uuid, af67b9088a214b828864f6b915f2d3cf, --username, AlexiosTheSixth, --assetIndex, 1.14, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768]
+[21:28:35] [Client thread/INFO]: [clientworld.js] Hooked ClientWorld.invalidateRegionAndSetBlock()
+[21:28:35] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[21:28:35] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[21:28:36] [Client thread/INFO]: [blockstate.js] Added block effect cache field
+[21:28:36] [Client thread/INFO]: [blockstate.js] Added hasfootprint cache field
+[21:28:36] [Client thread/INFO]: [blockstate.js] Added acoustic cache field
+[21:28:37] [Client thread/INFO]: [arrow.js] Hooked AbstractArrowEntity.tick()
+[21:28:37] [Client thread/INFO]: [soundengine.js] Hooked SoundEngine.load()
+[21:28:37] [Client thread/INFO]: [soundengine.js] Hooked SoundEngine.unload()
+[21:28:37] [Client thread/INFO]: [soundengine.js] Hooked SoundEngine.getClampedVolume()
+[21:28:37] [Client thread/INFO]: [soundengine.js] Hooked SoundEngine.play()
+[21:28:37] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.model.IModel.getTextures
+[21:28:37] [Client thread/INFO]: [biome.js] Added biome data cache field
+[21:28:37] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[21:28:37] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[21:28:37] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[21:28:37] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[21:28:37] [Client thread/INFO]: Setting user: AlexiosTheSixth
+[21:28:38] [Thread-3/FATAL]: WARNING : glfwInit took 5.083519999 seconds to start.
+[21:28:41] [Client thread/INFO]: LWJGL Version: 3.2.2 build 10
+[21:28:51] [Client thread/INFO]: [OptiFine] 
+[21:28:51] [Client thread/INFO]: [OptiFine] OptiFine_1.14.4_HD_U_F5
+[21:28:51] [Client thread/INFO]: [OptiFine] Build: 20191204-141250
+[21:28:51] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[21:28:51] [Client thread/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[21:28:51] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[21:28:51] [Client thread/INFO]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[21:28:51] [Client thread/INFO]: [OptiFine] OpenGL: AMD Radeon RX 5600 XT, version 4.6.13587 Compatibility Profile Context 20.4.2 26.20.15029.27017, ATI Technologies Inc.
+[21:28:51] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.13587
+[21:28:51] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[21:28:51] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[21:28:51] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[21:28:51] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.13587 Compatibility Profile Context 20.4.2 26.20.15029.27017
+[21:28:51] [Client thread/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
+[21:28:51] [Client thread/INFO]: [Shaders] Renderer: AMD Radeon RX 5600 XT
+[21:28:51] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[21:28:51] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[21:28:51] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[21:28:51] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[21:28:51] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[21:28:51] [Client thread/INFO]: [Shaders] Loaded shaderpack: Chocapic13_V9_Low.zip
+[21:28:51] [Client thread/INFO]: [OptiFine] [Shaders] Worlds: -1, 1
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: SHADOW_FILTER_SAMPLE_COUNT
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in shadow.vsh, gbuffers_textured.fsh, gbuffers_textured_lit.fsh, gbuffers_damagedblock.fsh, deferred.fsh, gbuffers_water.fsh, gbuffers_hand_water.fsh, composite2.fsh: 7
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world-1/composite2.fsh: 15
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: MOTION_REJECTION
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh: 0.0
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world-1/composite8.fsh: 0.5
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: ANTI_GHOSTING
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh: 0.0
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world-1/composite8.fsh: 1.0
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: FLICKER_REDUCTION
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh: 0.5
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world-1/composite8.fsh: 0.75
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: SHADOW_FILTER_SAMPLE_COUNT
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in shadow.vsh, gbuffers_textured.fsh, gbuffers_textured_lit.fsh, gbuffers_damagedblock.fsh, deferred.fsh, gbuffers_water.fsh, gbuffers_hand_water.fsh, composite2.fsh, world-1/composite2.fsh: 7
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world1/composite2.fsh: 15
+[21:28:51] [VersionCheck/INFO]: [OptiFine] Version found: F2
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: MOTION_REJECTION
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh, world-1/composite8.fsh: 0.0
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world1/composite8.fsh: 0.5
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: ANTI_GHOSTING
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh, world-1/composite8.fsh: 0.0
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world1/composite8.fsh: 1.0
+[21:28:51] [Client thread/WARN]: [OptiFine] Ambiguous shader option: FLICKER_REDUCTION
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in composite8.fsh, world-1/composite8.fsh: 0.5
+[21:28:51] [Client thread/WARN]: [OptiFine]  - in world1/composite8.fsh: 0.75
+[21:28:51] [Client thread/INFO]: [OptiFine] [Shaders] Parsing block mappings: /shaders/block.properties
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:slime
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:flowing_water
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:shroomlight
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:soul_torch
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:soul_wall_torch
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:soul_fire
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:soul_lantern
+[21:28:51] [Client thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:soul_campfire
+[21:28:51] [Client thread/WARN]: [OptiFine] [Shaders] Invalid option: VL_Clouds_Shadows, key: screen.Atmospherics
+[21:28:51] [Client thread/WARN]: [OptiFine] [Shaders] Duplicate option: Purkinje_strength, key: screen.Purkinje_effect
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: texelSizeX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: texelSizeY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: texelSize
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: framemod8
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: normSunVec
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: normUpVec
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: sunPosX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: sunPosY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: sunPosZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: sunVec
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: upPosX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: upPosY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: upPosZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: upVec
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: sunElevation
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: lightSign
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: maxAngle
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: cosFov
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: viewDirX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: viewDirY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: viewDirZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: normView
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shViewDirX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shViewDirY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shViewDirZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: shadowViewDir
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shStartX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shStartY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shStartZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: shadowCamera
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: wSunX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: wSunY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: wSunZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shSunX
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shSunY
+[21:28:51] [Client thread/INFO]: [Shaders] Custom variable: shSunZ
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: shadowLightVec
+[21:28:51] [Client thread/INFO]: [Shaders] Custom uniform: shadowMaxProj
+[21:28:52] [Client thread/WARN]: Removed resource pack file/Patrix_1.16_32x_basic.zip from options because it is no longer compatible
+[21:28:52] [Client thread/WARN]: Removed resource pack file/Patrix_1.16_models.zip from options because it is no longer compatible
+[21:28:52] [Client thread/WARN]: Removed resource pack file/Patrix_1.16_32x_addon.zip from options because it is no longer compatible
+[21:28:52] [Client thread/WARN]: Removed resource pack file/Patrix_1.16_32x_bonus.zip from options because it is no longer compatible
+[21:28:52] [Client thread/WARN]: No data fixer registered for entity clumps:xp_orb_big
+[21:28:52] [modloading-worker-9/INFO]: Constructing Mod: Spartan Weaponry
+[21:28:52] [modloading-worker-9/INFO]: Initialising API! Version: 5
+[21:28:52] [modloading-worker-8/INFO]: Initializing Config...
+[21:28:52] [modloading-worker-0/WARN]: No data fixer registered for entity guard
+[21:28:52] [modloading-worker-8/INFO]: Registering Entities...
+[21:28:52] [modloading-worker-14/WARN]: Configuration file C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt\config\spawnermod-config.toml is not correct. Correcting
+[21:28:52] [modloading-worker-0/INFO]: Constructing Mod: Spartan Shields
+[21:28:52] [modloading-worker-13/INFO]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[21:28:52] [modloading-worker-13/INFO]: MinecraftForge v28.2.0 Initialized
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Added context field
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Hooked SoundSource.play()
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Hooked SoundSource.tick()
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Hooked SoundSource.stop()
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Hooked SoundSource.playBuffer()
+[21:28:52] [modloading-worker-15/INFO]: [soundsource.js] Hooked SoundSource.bufferSize()
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity arrow_sw
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity arrow_explosive
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity bolt
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity bolt_spectral
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity throwing_weapon
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity tomahawk
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity javelin
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity boomerang
+[21:28:52] [modloading-worker-9/WARN]: No data fixer registered for entity dynamite
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity frog
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity crab
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity stoneling
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity chest_passenger
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity pickarang
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity wrapped
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity glass_frame
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity colored_frame
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity foxhound
+[21:28:53] [modloading-worker-11/WARN]: No data fixer registered for entity gravisand
+[21:28:53] [modloading-worker-3/WARN]: No data fixer registered for entity cfm:seat
+[21:28:53] [Client thread/INFO]: Dispatching synchronous work after CONSTRUCT: 2 jobs
+[21:28:53] [Client thread/INFO]: Synchronous work queue completed in 00:00:00.009
+[21:28:53] [Client thread/INFO]: Preparing Blocks for Climatic Biomes
+[21:28:53] [Client thread/INFO]: Creating Blocks for Climatic Biomes
+[21:28:53] [Client thread/INFO]: Registering Blocks for Climatic Biomes
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `nomadictents` for name `tent_dimension`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Registering Items for Climatic Biomes
+[21:28:53] [Client thread/INFO]: Registering Items
+[21:28:53] [Client thread/INFO]: Registered Items successfully!
+[21:28:53] [Client thread/INFO]: Registering items...
+[21:28:53] [Client thread/INFO]: Items Registered!
+[21:28:53] [Client thread/INFO]: Preparing Biomes for Climatic Biomes
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `hell_cave`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `caves`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Registering Enchantments
+[21:28:53] [Client thread/INFO]: Registered Enchantments successfully!
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity roughmobsrevamped:zombie_champion
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity roughmobsrevamped:zombie_pigman_champion
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity roughmobsrevamped:husk_champion
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity roughmobsrevamped:skeleton_champion
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity roughmobsrevamped:hostile_bat
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity consecration:fire_arrow
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity dummy
+[21:28:53] [Client thread/INFO]: Registering Entities
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:mogus
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:salamander
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:spinout
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:spore
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:spore_creeper
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:wight
+[21:28:53] [Client thread/WARN]: No data fixer registered for entity netherex:coolmar_spider
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `glowstone_blob`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `nether_spring`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `poison`, expected `firstaid`. This could be a intended override, but in most cases indicates a broken mod.
+[21:28:53] [Client thread/INFO]: Don't worry, the minecraft poison override IS intended.
+[21:28:54] [Client thread/INFO]: [soundsystem.js] Found BIPUSH 8 instruction
+[21:28:54] [Client thread/INFO]: [soundsystem.js] Found BIPUSH 8 instruction
+[21:28:54] [Client thread/INFO]: [soundsystem.js] Increased streaming sound source count to 10
+[21:28:54] [Client thread/INFO]: [dripparticle.js] Hooked DripParticle$Falling.groundHitHandler()
+[21:28:54] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[21:28:54] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[21:28:54] [Client thread/INFO]: [OptiFine] Resource packs: Mod Resources, AudioCraftV1.5.zip
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] Multitexture: false
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] Multipass connected textures: false
+[21:28:54] [Thread-1/FATAL]: Forge config just got changed on the file system!
+[21:28:54] [Server-Worker-5/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] Multipass connected textures: false
+[21:28:54] [Server-Worker-1/INFO]: Loading JourneyMap Forge Configs
+[21:28:54] [Thread-1/INFO]: Loading JourneyMap Forge Configs
+[21:28:54] [Thread-1/INFO]: Loading JourneyMap Forge Configs
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[21:28:54] [Server-Worker-1/WARN]: Configuration file C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt\config\sulfurpotassiummod-common.toml is not correct. Correcting
+[21:28:54] [Server-Worker-1/INFO]: Loading config spartanshields-common.toml
+[21:28:54] [Thread-1/INFO]: Loading config spartanshields-common.toml
+[21:28:54] [Server-Worker-1/WARN]: Configuration file C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt\config\netherex\effect-config.toml is not correct. Correcting
+[21:28:54] [Server-Worker-1/WARN]: Incorrect key effect.infested.entityBlacklist was corrected from [netherex:spore, netherex:spore_creeper, netherex:mogus] to [netherex:spore, netherex:spore_creeper, netherex:mogus]
+[21:28:54] [Server-Worker-1/WARN]: Incorrect key effect.frozen.entityBlacklist was corrected from [netherex:wight, netherex:coolmar_spider] to [netherex:wight, netherex:coolmar_spider]
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[21:28:54] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[21:28:54] [modloading-worker-8/INFO]: Setting up Spartan Weaponry!
+[21:28:54] [modloading-worker-10/INFO]: firstaid starting...
+[21:28:55] [modloading-worker-3/INFO]: Starting Climatic Biomes
+[21:28:55] [modloading-worker-4/INFO]: Creating standard profiles into 'config/lostcity_profiles'
+[21:28:55] [modloading-worker-6/INFO]: Setting up Spartan Shields!
+[21:28:55] [modloading-worker-15/ERROR]: Found @journeymap.client.api.ClientPlugin: journeymap.client.api.ClientPlugin, but it doesn't implement IClientPlugin
+[21:28:55] [modloading-worker-15/INFO]: No plugins for JourneyMap API discovered.
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[21:28:55] [Forge Version Check/INFO]: [sndctrl] Starting version check at https://raw.githubusercontent.com/OreCruncher/SoundControl/master/version.json
+[21:28:55] [modloading-worker-4/INFO]: Reading existing profiles from 'config/lostcity_profiles'
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [HOT, JUNGLE, WET]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [HOT, JUNGLE, WET]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome nomadictents:tent_biome, types have been assigned on a best-effort guess: [HILLS]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome netherex:ruthless_sands, types have been assigned on a best-effort guess: [HOT, NETHER, DRY]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome netherex:fungi_forest, types have been assigned on a best-effort guess: [HOT, NETHER, DRY]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome netherex:torrid_wasteland, types have been assigned on a best-effort guess: [HOT, NETHER, DRY]
+[21:28:55] [modloading-worker-11/WARN]: No types have been added to Biome netherex:arctic_abyss, types have been assigned on a best-effort guess: [HOT, NETHER, DRY]
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Chain Linkage
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Chute
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Color Slime
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Dispensers Place Blocks
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Ender Watcher
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Endermites Form Shulkers
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Feeding Trough
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Gravisand
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Iron Rod
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Metal Buttons
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Obsidian Plate
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Pistons Move Tile Entities
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Redstone Circuit
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Weather Sensor
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Compressed Blocks
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Duskbound Blocks
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Framed Glass
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Grate
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Iron Plates
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Item Frames
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Leaf Carpet
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Lit Lamp
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Midori
+[21:28:55] [modloading-worker-11/INFO]: Loading Module More Brick Types
+[21:28:55] [modloading-worker-11/INFO]: Loading Module More Potted Plants
+[21:28:55] [modloading-worker-11/INFO]: Loading Module More Stone Variants
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Nether Brick Fence Gate
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Paper Decor
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Quilted Wool
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Rope
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Shingles
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Soul Sandstone
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Stained Planks
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Sturdy Stone
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Tallow And Candles
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Thatch
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Turf
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Variant Bookshelves
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Variant Chests
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Variant Ladders
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Vertical Planks
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Vertical Slabs
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Chests In Boats
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Easy Transfering
+[21:28:55] [modloading-worker-11/INFO]: Loading Module F To Switch
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Hotbar Changer
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Inventory Sorting
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Shulker Box Right Click
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Ancient Tomes
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Pathfinder Maps
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Pickarang
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Slime In A Bucket
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Trowel
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Armed Armor Stands
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Automatic Recipe Unlock
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Axe Leaf Harvesting
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Campfires Boost Elytra
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Compasses Work Everywhere
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Dirt To Path
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Double Door Opening
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Dragon Scales
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Enhanced Ladders
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Glass Shard
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Hoe Harvesting
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Improved Sleeping
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Lock Rotation
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Note Block Mob Sounds
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Pat The Dogs
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Poison Potato Usage
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Reacharound Placing
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Sign Editing
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Simple Harvest
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Snow Golem Player Heads
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Springy Slime
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Utility Recipes
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Villagers Follow Emeralds
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Color Runes
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Emotes
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Item Sharing
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Big Dungeon
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Big Stone Clusters
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Biotite
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Blossom Trees
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Cave Roots
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Foxhound
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Mega Caves
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Monster Box
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Nether Obsidian Spikes
+[21:28:55] [modloading-worker-11/INFO]: Loading Module New Stone Types
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Passive Creatures
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Speleothems
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Stonelings
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Underground Clay
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Brimstone Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Cave Crystal Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Elder Prismarine Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Glowshroom Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Lush Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Overgrown Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Permafrost Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Sandstone Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Slime Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Spider Nest Underground Biome
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Back Button Keybind
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Chest Searching
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Greener Grass
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Improved Mount Hud
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Improved Tooltips
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Usage Ticker
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Variant Animal Textures
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Adjustable Chat
+[21:28:55] [modloading-worker-11/INFO]: Loading Module Custom Underground Biome
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[21:28:55] [Server-Worker-1/INFO]: Dispatching synchronous work after COMMON_SETUP: 3 jobs
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[21:28:55] [Client thread/INFO]: Initializing Packet Registry
+[21:28:55] [Server-Worker-1/INFO]: Synchronous work queue completed in 00:00:00.018
+[21:28:55] [modloading-worker-9/INFO]: Setting up Client for Spartan Weaponry!
+[21:28:55] [modloading-worker-12/INFO]: OBJLoader: Domain craftableslimeballs has been added.
+[21:28:55] [modloading-worker-6/INFO]: OBJLoader: Domain horsebarding has been added.
+[21:28:55] [modloading-worker-0/INFO]: Setting up Client for Spartan Shields!
+[21:28:55] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[21:28:55] [modloading-worker-7/WARN]: Configuration file C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded Manhunt\config\soundfilters-client.toml is not correct. Correcting
+[21:28:55] [modloading-worker-7/WARN]: Incorrect key reverb.blockSpecificReverb was corrected from [] to []
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[21:28:56] [Forge Version Check/INFO]: [sndctrl] Found status: AHEAD Current: 1.14.4-0.1.0.0 Target: null
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[21:28:56] [Forge Version Check/INFO]: [environs] Starting version check at https://raw.githubusercontent.com/OreCruncher/Environs/master/version.json
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[21:28:56] [Server-Worker-1/ERROR]: Using missing texture, unable to load netherex:textures/mob_effect/fire_burning.png : java.io.FileNotFoundException: netherex:textures/mob_effect/fire_burning.png
+[21:28:56] [Server-Worker-1/ERROR]: Using missing texture, unable to load consecration:textures/mob_effect/holy.png : java.io.FileNotFoundException: consecration:textures/mob_effect/holy.png
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[21:28:56] [Forge Version Check/INFO]: [environs] Found status: AHEAD Current: 1.14.4-0.1.0.0 Target: null
+[21:28:56] [Forge Version Check/INFO]: [roughmobsrevamped] Starting version check at https://api.npoint.io/0d4e5ab77e46896ac842
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[21:28:56] [Server-Worker-1/ERROR]: Using missing texture, unable to load netherex:textures/mob_effect/soul_sucked.png : java.io.FileNotFoundException: netherex:textures/mob_effect/soul_sucked.png
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] Multipass connected textures: false
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[21:28:56] [Server-Worker-5/INFO]: [OptiFine] Scaled non power of 2: jei:gui/icons/recipe_transfer, 7 -> 14
+[21:28:56] [Forge Version Check/INFO]: [roughmobsrevamped] Found status: OUTDATED Current: 1.14.4-3.1.7 Target: 3.1.7
+[21:28:56] [Forge Version Check/INFO]: [mobeffects] Starting version check at https://raw.githubusercontent.com/OreCruncher/MobEffects/master/version.json
+[21:28:56] [Forge Version Check/INFO]: [mobeffects] Found status: AHEAD Current: 1.14.4-0.1.0.0 Target: null
+[21:28:56] [Forge Version Check/INFO]: [trapcraft] Starting version check at https://raw.githubusercontent.com/percivalalb/Trapcraft/master/version.json
+[21:28:56] [Forge Version Check/INFO]: [trapcraft] Found status: AHEAD Current: 2.6.2 Target: null
+[21:28:56] [Forge Version Check/INFO]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[21:28:56] [Forge Version Check/WARN]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 9 column 7 path $..1.16.1-latest
+	at com.google.gson.Gson.fromJson(Gson.java:902) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[gson-2.8.0.jar:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:214) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$3803/1385574411.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 9 column 7 path $..1.16.1-latest
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:491) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:69) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	... 7 more
+[21:28:56] [Forge Version Check/INFO]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
+[21:28:56] [Forge Version Check/INFO]: [cfm] Found status: BETA Current: 7.0.0-pre15 Target: 7.0.0-pre15
+[21:28:56] [Forge Version Check/INFO]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
+[21:28:57] [Forge Version Check/WARN]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Invalid escape sequence at line 21 column 217 path $..1.6
+	at com.google.gson.Gson.fromJson(Gson.java:902) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[gson-2.8.0.jar:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:214) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$3803/1385574411.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Invalid escape sequence at line 21 column 217 path $..1.6
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.readEscapeCharacter(JsonReader.java:1550) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1004) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:815) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:76) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:70) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	... 7 more
+[21:28:57] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:28:57] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[21:28:59] [Server-Worker-2/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:28:59] [Server-Worker-2/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:28:59] [Server-Worker-2/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:28:59] [Server-Worker-2/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] Multitexture: false
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] Multipass connected textures: false
+[21:29:00] [Server-Worker-2/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] Multipass connected textures: false
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] Multipass connected textures: false
+[21:29:00] [Server-Worker-2/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[21:29:05] [Server-Worker-2/INFO]: [OptiFine] Mipmap levels: 4
+[21:29:08] [modloading-worker-13/WARN]: Unable to locate sound 'mobeffects:jump'
+[21:29:08] [modloading-worker-15/INFO]: Registering 3rd Party Mod Compatibility...
+[21:29:08] [modloading-worker-15/INFO]: Initializing Core Features...
+[21:29:08] [modloading-worker-14/INFO]: 40498 block states processed, 29 registry entries
+[21:29:09] [Server-Worker-2/INFO]: Dispatching synchronous work after COMPLETE: 1 jobs
+[21:29:09] [Client thread/INFO]: PostInit
+[21:29:09] [Client thread/INFO]: JourneyMap log initialized.
+[21:29:09] [Client thread/INFO]: initialize ENTER
+[21:29:10] [Client thread/WARN]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:29:10] [Client thread/WARN]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:29:10] [Client thread/INFO]: [ClientAPI] built with JourneyMap API 1.5-SNAPSHOT
+[21:29:10] [Client thread/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:29:10] [Client thread/INFO]: initialize EXIT, elapsed count 0 avg ?ms
+[21:29:10] [Client thread/ERROR]: Couldn't locate icons for Default: C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded%20Manhunt\mods\journeymap-1.14.4-5.7.0b3.jar\assets\journeymap\icon\entity
+[21:29:10] [Client thread/INFO]: Added entity icons from journeymap:icon/entity. Success: false
+[21:29:10] [Client thread/ERROR]: Couldn't locate icons for flat: C:\Users\Khristianopoplis\Twitch\Minecraft\Instances\Modded%20Manhunt\mods\journeymap-1.14.4-5.7.0b3.jar\assets\journeymap\theme\flat
+[21:29:10] [Client thread/INFO]: Preloaded theme textures: 0
+[21:29:10] [Server-Worker-2/INFO]: Synchronous work queue completed in 00:00:00.453
+[21:29:10] [JM-VersionCheck-1/INFO]: Newer version online: JourneyMap 5.7.0b3.jar for Minecraft 1.14.4 on http://minecraft.curseforge.com/projects/journeymap/files/2981598
+[21:29:10] [Client thread/INFO]: OpenAL initialized.
+[21:29:10] [Client thread/INFO]: Enhanced sounds are enabled.  Will perform sound engine reconfiguration.
+[21:29:10] [SoundControl Sound Processor/INFO]: Threads allocated to SoundControl sound processor: 1
+[21:29:10] [Client thread/INFO]: Sound engine started
+[21:29:10] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:29:11] [Client thread/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 0
+[21:29:11] [Client thread/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 0
+[21:29:11] [Client thread/INFO]: [OptiFine] Animated sprites: 0
+[21:29:11] [Client thread/INFO]: Created: 1024x1024 textures-atlas
+[21:29:11] [Client thread/INFO]: [Shaders] Allocate texture map normal: 1024x1024, mipmaps: 4
+[21:29:11] [Client thread/INFO]: [Shaders] Allocate texture map specular: 1024x1024, mipmaps: 4
+[21:29:11] [Client thread/INFO]: [OptiFine] Animated sprites: 53
+[21:29:29] [Client thread/INFO]: Created: 256x256 textures/particle-atlas
+[21:29:29] [Client thread/INFO]: Created: 256x256 textures/painting-atlas
+[21:29:29] [Client thread/INFO]: Created: 128x128 textures/mob_effect-atlas
+[21:29:29] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/WARN]: [OptiFine] Unknown resource pack file: mod_resources
+[21:29:29] [Client thread/INFO]: [OptiFine] CustomBlockLayers: shaders/block.properties
+[21:29:29] [Client thread/INFO]: [OptiFine] Disable Forge light pipeline
+[21:29:29] [Client thread/INFO]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[21:29:29] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[21:29:29] [Client thread/ERROR]: The following texture errors were found.
+[21:29:29] [Client thread/ERROR]: ==================================================
+[21:29:29] [Client thread/ERROR]:   DOMAIN netherex
+[21:29:29] [Client thread/ERROR]: --------------------------------------------------
+[21:29:29] [Client thread/ERROR]:   domain netherex is missing 2 textures
+[21:29:29] [Client thread/ERROR]:     domain netherex has 1 location:
+[21:29:29] [Client thread/ERROR]:       resource pack at path mod_resources
+[21:29:29] [Client thread/ERROR]: -------------------------
+[21:29:29] [Client thread/ERROR]:     The missing resources for domain netherex are:
+[21:29:29] [Client thread/ERROR]:       textures/mob_effect/fire_burning.png
+[21:29:29] [Client thread/ERROR]:       textures/mob_effect/soul_sucked.png
+[21:29:29] [Client thread/ERROR]: -------------------------
+[21:29:29] [Client thread/ERROR]:     No other errors exist for domain netherex
+[21:29:29] [Client thread/ERROR]: ==================================================
+[21:29:29] [Client thread/ERROR]: ==================================================
+[21:29:29] [Client thread/ERROR]:   DOMAIN consecration
+[21:29:29] [Client thread/ERROR]: --------------------------------------------------
+[21:29:29] [Client thread/ERROR]:   domain consecration is missing 1 texture
+[21:29:29] [Client thread/ERROR]:     domain consecration has 1 location:
+[21:29:29] [Client thread/ERROR]:       resource pack at path mod_resources
+[21:29:29] [Client thread/ERROR]: -------------------------
+[21:29:29] [Client thread/ERROR]:     The missing resources for domain consecration are:
+[21:29:29] [Client thread/ERROR]:       textures/mob_effect/holy.png
+[21:29:29] [Client thread/ERROR]: -------------------------
+[21:29:29] [Client thread/ERROR]:     No other errors exist for domain consecration
+[21:29:29] [Client thread/ERROR]: ==================================================
+[21:29:29] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[21:29:29] [Client thread/INFO]: Sound Filters successfully loaded the sound channels

@@ -1,0 +1,164 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 12/7/20 8:28 PM
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at de.cas_ual_ty.guncus.item.ItemGun.func_77624_a(ItemGun.java:687) ~[?:1.14.4-1.1] {re:classloading}
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:549) ~[?:?] {re:classloading,xf:fml:quark:add-spacing-for-stack,xf:fml:materialmaster:item_stack_patch}
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$6(Minecraft.java:557) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3555/47752282.apply(Unknown Source) ~[?:?] {}
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:36) ~[?:?] {re:classloading}
+	at net.minecraft.client.util.SearchTreeReloadable.func_217872_a(SourceFile:48) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$9(Minecraft.java:575) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3563/1587676860.accept(Unknown Source) ~[?:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_51] {}
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:574) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:516) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:365) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(SourceFile:155) [?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:56) [forge-1.14.4-28.2.0.jar:28.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$400/1243227501.call(Unknown Source) [forge-1.14.4-28.2.0.jar:28.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at de.cas_ual_ty.guncus.item.ItemGun.func_77624_a(ItemGun.java:687)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:549)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$6(Minecraft.java:557)
+	at net.minecraft.client.Minecraft$$Lambda$3555/47752282.apply(Unknown Source)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:36)
+	at net.minecraft.client.util.SearchTreeReloadable.func_217872_a(SourceFile:48)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$9(Minecraft.java:575)
+	at net.minecraft.client.Minecraft$$Lambda$3563/1587676860.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:574)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:516)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:365)
+	at net.minecraft.client.main.Main.main(SourceFile:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:56)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$400/1243227501.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1247958864 bytes (1190 MB) / 1903165440 bytes (1815 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 16
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4096m -Xms256m -XX:PermSize=256m
+	ModLauncher: 4.1.0+62+5bfa59b
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.1-milestone.0.1+94458e7-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.2
+	Forge: net.minecraftforge:28.2.0
+	FML Language Providers: 
+		javafml@28.2
+		minecraft@1
+	Mod List: 
+		SoundControl-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eSound Control {sndctrl@1.14.4-0.1.0.0 LOAD_REGISTRIES}
+		roughmobsrevamped-1.14.4-3.1.7.jar Rough Mobs Revamped {roughmobsrevamped@1.14.4-3.1.7 LOAD_REGISTRIES}
+		foodfunk-1.14.4-5.1.0.jar FoodFunk {foodfunk@5.1.0 LOAD_REGISTRIES}
+		treeharvester_1.14.4-2.0.jar Tree Harvester {treeharvester@2.0 LOAD_REGISTRIES}
+		jei-1.14.4-6.0.1.30.jar Just Enough Items {jei@6.0.1.30 LOAD_REGISTRIES}
+		tnt-yeeter-1.14.4-1.1.0.jar TNT Yeeter {yeeter@1.1.0 LOAD_REGISTRIES}
+		SwordBlockingCombat-v1.4.1-1.14.4.jar Sword Blocking Combat {swordblockingcombat@1.4.1 LOAD_REGISTRIES}
+		ClimaticBiomes-pre3.0.0.2020.02.28-MC1.14.4.jar Climatic Biomes {climaticbiomes@pre3.0.0.2020.02.28-MC1.14.4 LOAD_REGISTRIES}
+		modnametooltip_1.14.3-1.12.1.jar Mod Name Tooltip {modnametooltip@1.12.1 LOAD_REGISTRIES}
+		Waystones_1.14.4-5.1.1.jar Waystones {waystones@5.1.1 LOAD_REGISTRIES}
+		villagernames_1.14.4-2.5.jar Villager Names {villagernames@2.5 LOAD_REGISTRIES}
+		Clumps-4.0.1.jar Clumps {clumps@4.0.1 LOAD_REGISTRIES}
+		journeymap-1.14.4-5.7.0b3.jar Journeymap {journeymap@5.7.0b3 LOAD_REGISTRIES}
+		Placebo-1.14.4-2.3.5.jar Placebo {placebo@2.3.5 LOAD_REGISTRIES}
+		itemzoom-1.14.4-2.0.0.jar Item Zoom {itemzoom@2.0.0 LOAD_REGISTRIES}
+		guardvillagers-1.14.4-1.0.5.jar Guard Villagers {guardvillagers@1.0.5 LOAD_REGISTRIES}
+		wumpleutil-1.14.4-3.6.0.jar Wumple Util Library {wumpleutil@3.6.0 LOAD_REGISTRIES}
+		ToastControl-1.14.4-2.2.0.jar Toast Control {toastcontrol@2.2.0 LOAD_REGISTRIES}
+		nopoles-1.14.4-3.1.6.jar No Poles {nopoles@1.14.4-3.1.6 LOAD_REGISTRIES}
+		CarryOn MC1.14.4 v1.12.4.jar Carry On {carryon@1.12.4 LOAD_REGISTRIES}
+		immersive-portals-0.15(for mc 1.14 with forge).jar Immersive Portals {immersive_portals@0.15 LOAD_REGISTRIES}
+		confdespawntimer_1.14-1.3.jar Configurable Despawn Timer {confdespawntimer@1.3 LOAD_REGISTRIES}
+		firstaid-1.7.12.jar First Aid {firstaid@1.7.12 LOAD_REGISTRIES}
+		forge-1.14.4-28.2.0-universal.jar Forge {forge@28.2.0 LOAD_REGISTRIES}
+		Hardcore Battle towers AV.jar Hardcore Battle Towers AV {hardcore_battle_towers_av_av@2.0.2 LOAD_REGISTRIES}
+		forge-1.14.4-28.2.0-client.jar Minecraft {minecraft@1.14.4 LOAD_REGISTRIES}
+		Environs-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eEnvirons {environs@1.14.4-0.1.0.0 LOAD_REGISTRIES}
+		swingthroughgrass-1.14.4-1.3.2.jar SwingThroughGrass {swingthroughgrass@1.14.4-1.3.2 LOAD_REGISTRIES}
+		ToolBelt-1.14.4-1.12.5.jar Tool Belt {toolbelt@1.12.5 LOAD_REGISTRIES}
+		netherportalspread_1.14.4-4.4.jar Nether Portal Spread {netherportalspread@4.4 LOAD_REGISTRIES}
+		craftablechainmail-1.14.4-1.1.jar Leo's Craftable Chainmail {craftablechainmail@1.14.4-1.1 ERROR}
+		baubles-1.6.1-1.14.4.jar Baubles {baubles@1.6.1 LOAD_REGISTRIES}
+		Craftable Slime Balls.jar CraftableSlimeBalls {craftableslimeballs@1.0.0 LOAD_REGISTRIES}
+		villagespawnpoint_1.14-1.2.jar Village Spawn Point {villagespawnpoint@1.2 LOAD_REGISTRIES}
+		MobEffects-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eMob Effects {mobeffects@1.14.4-0.1.0.0 LOAD_REGISTRIES}
+		Trapcraft-1.14.4-2.6.2.jar Trapcraft {trapcraft@2.6.2 LOAD_REGISTRIES}
+		SpartanShields-1.14.4-2.1.0.jar Spartan Shields {spartanshields@2.1.0 LOAD_REGISTRIES}
+		MaterialMaster-v1.3.1-1.14.4.jar MaterialMaster {materialmaster@1.3.1 LOAD_REGISTRIES}
+		AutoRegLib-1.4-35.jar AutoRegLib {arl@1.4-35 LOAD_REGISTRIES}
+		Quark-r2.0-212.jar Quark {quark@r2.0-212 LOAD_REGISTRIES}
+		collective-1.14.4-1.53.jar Collective {collective@1.53 LOAD_REGISTRIES}
+		mobsunscreen-1.14.4-2.1.3.jar Mob Sunscreen {mobsunscreen@1.14.4-2.1.3 LOAD_REGISTRIES}
+		betteranimals-1.14.4-5.4.0.jar Cyber's Better Animal Models {betteranimals@5.4.0 LOAD_REGISTRIES}
+		lostcities-1.14-2.0.28-alpha.jar LostCities {lostcities@1.14-2.0.28-alpha LOAD_REGISTRIES}
+		obfuscate-0.4.1-1.14.4.jar Obfuscate {obfuscate@0.4.1 LOAD_REGISTRIES}
+		vehicle-mod-0.44.0-1.14.4.jar MrCrayfish's Vehicle Mod {vehicle@0.44.0 LOAD_REGISTRIES}
+		guncus-1.14.4-1.1.jar Gun Customization {guncus@1.14.4-1.1 LOAD_REGISTRIES}
+		noRecipeBook_v1.4.1formc1.14.4.jar No Recipe Book {norecipebook@1.4.1 LOAD_REGISTRIES}
+		SpartanWeaponry-1.14.4-2.0.0-beta-3.jar Spartan Weaponry {spartanweaponry@2.0.0 beta 3 LOAD_REGISTRIES}
+		furniture-7.0.0-pre15-1.14.4.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre15 LOAD_REGISTRIES}
+		playertrackingcompass_1.14-1.2.jar Player Tracking Compass {playertrackingcompass@1.2 LOAD_REGISTRIES}
+		SoundFilters-0.14_for_1.14.4.jar Sound Filters {soundfilters@0.14_for_1.14.4 LOAD_REGISTRIES}
+		NetherEx-1.14.4-3.1.1.jar NetherEx {netherex@3.1.1 LOAD_REGISTRIES}
+		LibraryEx-1.14.4-2.1.1.jar LibraryEx {libraryex@2.1.1 LOAD_REGISTRIES}
+	Launched Version: forge-28.2.0
+	LWJGL: 3.2.2 build 10
+	OpenGL: AMD Radeon RX 5600 XT GL version 4.6.13587 Compatibility Profile Context 20.4.2 26.20.15029.27017, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 16x AMD Ryzen 7 3700X 8-Core Processor 

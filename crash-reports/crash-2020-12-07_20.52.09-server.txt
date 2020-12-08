@@ -1,0 +1,231 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 12/7/20 8:52 PM
+Description: Feature placement
+
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.8.0.jar:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65) ~[gson-2.8.0.jar:?] {}
+	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:493) ~[?:?] {re:classloading}
+	at net.minecraft.util.JSONUtils.func_188176_a(SourceFile:518) ~[?:?] {re:classloading}
+	at net.minecraft.util.text.ITextComponent$Serializer.func_150699_a(SourceFile:393) ~[?:?] {re:classloading}
+	at net.minecraft.tileentity.CommandBlockLogic.func_145759_b(SourceFile:66) ~[?:?] {re:classloading}
+	at net.minecraft.tileentity.CommandBlockTileEntity.func_145839_a(SourceFile:44) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.template.Template.func_189962_a(Template.java:210) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.template.Template.func_186253_b(Template.java:166) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.template.Template.func_186260_a(Template.java:162) ~[?:?] {re:classloading}
+	at net.mcreator.hardcore_battle_towers_av_av.MCreatorForesttower$1.place(MCreatorForesttower.java:58) ~[?:?] {re:classloading}
+	at net.mcreator.hardcore_battle_towers_av_av.MCreatorForesttower$1.func_212245_a(MCreatorForesttower.java:36) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_222734_a(SourceFile:36) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.placement.Placement.lambda$place$0(Placement.java:72) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.placement.Placement$$Lambda$5866/292094272.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:419) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[?:1.8.0_51] {}
+	at net.minecraft.world.gen.placement.Placement.func_214998_a(Placement.java:71) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.placement.ConfiguredPlacement.func_215093_a(SourceFile:35) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_212245_a(SourceFile:20) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_212245_a(SourceFile:13) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_222734_a(SourceFile:36) ~[?:?] {re:classloading}
+	at net.minecraft.world.biome.Biome.func_203608_a(Biome.java:283) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:environs:environs_biome_transformer}
+	at net.minecraft.world.gen.ChunkGenerator.func_202092_b(ChunkGenerator.java:104) ~[?:?] {re:classloading}
+	at net.minecraft.world.chunk.ChunkStatus.lambda$static$9(ChunkStatus.java:73) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.chunk.ChunkStatus$$Lambda$1585/539825188.doWork(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:196) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager.lambda$null$17(ChunkManager.java:509) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager$$Lambda$5769/1465187721.apply(Unknown Source) ~[?:?] {}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-2.0.24.jar:?] {}
+	at net.minecraft.world.server.ChunkManager.lambda$func_223156_b$19(ChunkManager.java:507) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager$$Lambda$5766/1861696414.apply(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_51] {}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58) ~[?:?] {re:classloading}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter$$Lambda$5712/1052858553.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213148_e(SourceFile:83) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213145_a(SourceFile:123) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.run(SourceFile:91) ~[?:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51] {}
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?] {}
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[gson-2.8.0.jar:?] {}
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[gson-2.8.0.jar:?] {}
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[gson-2.8.0.jar:?] {}
+	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.8.0.jar:?] {}
+	... 44 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.google.gson.internal.Streams.parse(Streams.java:60)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65)
+	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:493)
+	at net.minecraft.util.JSONUtils.func_188176_a(SourceFile:518)
+	at net.minecraft.util.text.ITextComponent$Serializer.func_150699_a(SourceFile:393)
+	at net.minecraft.tileentity.CommandBlockLogic.func_145759_b(SourceFile:66)
+	at net.minecraft.tileentity.CommandBlockTileEntity.func_145839_a(SourceFile:44)
+	at net.minecraft.world.gen.feature.template.Template.func_189962_a(Template.java:210)
+	at net.minecraft.world.gen.feature.template.Template.func_186253_b(Template.java:166)
+	at net.minecraft.world.gen.feature.template.Template.func_186260_a(Template.java:162)
+	at net.mcreator.hardcore_battle_towers_av_av.MCreatorForesttower$1.place(MCreatorForesttower.java:58)
+	at net.mcreator.hardcore_battle_towers_av_av.MCreatorForesttower$1.func_212245_a(MCreatorForesttower.java:36)
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_222734_a(SourceFile:36)
+	at net.minecraft.world.gen.placement.Placement.lambda$place$0(Placement.java:72)
+	at net.minecraft.world.gen.placement.Placement$$Lambda$5866/292094272.accept(Unknown Source)
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:419)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at net.minecraft.world.gen.placement.Placement.func_214998_a(Placement.java:71)
+	at net.minecraft.world.gen.placement.ConfiguredPlacement.func_215093_a(SourceFile:35)
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_212245_a(SourceFile:20)
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_212245_a(SourceFile:13)
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_222734_a(SourceFile:36)
+
+-- Feature --
+Details:
+	Id: minecraft:decorated
+	Description: < DecoratedFeature [minecraft:decorated] >
+Stacktrace:
+	at net.minecraft.world.biome.Biome.func_203608_a(Biome.java:283)
+
+-- Generation --
+Details:
+	CenterX: -10
+	CenterZ: 26
+	Step: SURFACE_STRUCTURES
+	Seed: -613989469568454446
+	Biome: minecraft:forest
+Stacktrace:
+	at net.minecraft.world.gen.ChunkGenerator.func_202092_b(ChunkGenerator.java:104)
+	at net.minecraft.world.chunk.ChunkStatus.lambda$static$9(ChunkStatus.java:73)
+	at net.minecraft.world.chunk.ChunkStatus$$Lambda$1585/539825188.doWork(Unknown Source)
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:196)
+
+-- Chunk to be generated --
+Details:
+	Location: -10,26
+	Position hash: 115964116982
+	Generator: net.minecraft.world.gen.OverworldChunkGenerator@4bf064fe
+Stacktrace:
+	at net.minecraft.world.server.ChunkManager.lambda$null$17(ChunkManager.java:509)
+	at net.minecraft.world.server.ChunkManager$$Lambda$5769/1465187721.apply(Unknown Source)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.world.server.ChunkManager.lambda$func_223156_b$19(ChunkManager.java:507)
+	at net.minecraft.world.server.ChunkManager$$Lambda$5766/1861696414.apply(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952)
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58)
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter$$Lambda$5712/1052858553.run(Unknown Source)
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213148_e(SourceFile:83)
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213145_a(SourceFile:123)
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.run(SourceFile:91)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayerEntity['AlexiosTheSixth'/652, l='Make sure nothing blows up', x=47.51, y=97.64, z=327.82]]
+	Chunk stats: ServerChunkCache: 3208
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: Make sure nothing blows up
+	Level seed: -6795112751435957870
+	Level generator: ID 07 - climatic_bp, ver 0. Features enabled: true
+	Level generator options: {}
+	Level spawn location: World: (352,72,224), Chunk: (at 0,4,0 in 22,14; contains blocks 352,0,224 to 367,255,239), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 13611 game time, 13611 day time
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 151609 (now: false), thunder time: 67017 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:832)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:764)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:112)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 534211624 bytes (509 MB) / 2252865536 bytes (2148 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 16
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4096m -Xms256m -XX:PermSize=256m
+	ModLauncher: 4.1.0+62+5bfa59b
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.1-milestone.0.1+94458e7-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.2.0.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.2
+	Forge: net.minecraftforge:28.2.0
+	FML Language Providers: 
+		javafml@28.2
+		minecraft@1
+	Mod List: 
+		forge-1.14.4-28.2.0-client.jar Minecraft {minecraft@1.14.4 DONE}
+		swingthroughgrass-1.14.4-1.3.2.jar SwingThroughGrass {swingthroughgrass@1.14.4-1.3.2 DONE}
+		SoundControl-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eSound Control {sndctrl@1.14.4-0.1.0.0 DONE}
+		Environs-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eEnvirons {environs@1.14.4-0.1.0.0 DONE}
+		ToolBelt-1.14.4-1.12.5.jar Tool Belt {toolbelt@1.12.5 DONE}
+		netherportalspread_1.14.4-4.4.jar Nether Portal Spread {netherportalspread@4.4 DONE}
+		roughmobsrevamped-1.14.4-3.1.7.jar Rough Mobs Revamped {roughmobsrevamped@1.14.4-3.1.7 DONE}
+		baubles-1.6.1-1.14.4.jar Baubles {baubles@1.6.1 DONE}
+		treeharvester_1.14.4-2.0.jar Tree Harvester {treeharvester@2.0 DONE}
+		Craftable Slime Balls.jar CraftableSlimeBalls {craftableslimeballs@1.0.0 DONE}
+		jei-1.14.4-6.0.1.30.jar Just Enough Items {jei@6.0.1.30 DONE}
+		astikorcarts-1.14.4-1.0.4.jar AstikorCarts {astikorcarts@1.0.4 DONE}
+		villagespawnpoint_1.14-1.2.jar Village Spawn Point {villagespawnpoint@1.2 DONE}
+		ClimaticBiomes-pre3.0.0.2020.02.28-MC1.14.4.jar Climatic Biomes {climaticbiomes@pre3.0.0.2020.02.28-MC1.14.4 DONE}
+		MobEffects-1.14.4-0.1.0.0.jar §3Dynamic Surroundings: §eMob Effects {mobeffects@1.14.4-0.1.0.0 DONE}
+		modnametooltip_1.14.3-1.12.1.jar Mod Name Tooltip {modnametooltip@1.12.1 DONE}
+		Trapcraft-1.14.4-2.6.2.jar Trapcraft {trapcraft@2.6.2 DONE}
+		SpartanShields-1.14.4-2.1.0.jar Spartan Shields {spartanshields@2.1.0 DONE}
+		Waystones_1.14.4-5.1.1.jar Waystones {waystones@5.1.1 DONE}
+		AutoRegLib-1.4-35.jar AutoRegLib {arl@1.4-35 DONE}
+		villagernames_1.14.4-2.5.jar Villager Names {villagernames@2.5 DONE}
+		collective-1.14.4-1.53.jar Collective {collective@1.53 DONE}
+		mobsunscreen-1.14.4-2.1.3.jar Mob Sunscreen {mobsunscreen@1.14.4-2.1.3 DONE}
+		Clumps-4.0.1.jar Clumps {clumps@4.0.1 DONE}
+		journeymap-1.14.4-5.7.0b3.jar Journeymap {journeymap@5.7.0b3 DONE}
+		Placebo-1.14.4-2.3.5.jar Placebo {placebo@2.3.5 DONE}
+		betteranimals-1.14.4-5.4.0.jar Cyber's Better Animal Models {betteranimals@5.4.0 DONE}
+		lostcities-1.14-2.0.28-alpha.jar LostCities {lostcities@1.14-2.0.28-alpha DONE}
+		obfuscate-0.4.1-1.14.4.jar Obfuscate {obfuscate@0.4.1 DONE}
+		vehicle-mod-0.44.0-1.14.4.jar MrCrayfish's Vehicle Mod {vehicle@0.44.0 DONE}
+		NomadicTents-1.14.4-10.1.1.jar Nomadic Tents {nomadictents@10.1.1 DONE}
+		guncus-1.14.4-1.1.jar Gun Customization {guncus@1.14.4-1.1 DONE}
+		guardvillagers-1.14.4-1.0.5.jar Guard Villagers {guardvillagers@1.0.5 DONE}
+		noRecipeBook_v1.4.1formc1.14.4.jar No Recipe Book {norecipebook@1.4.1 DONE}
+		SpartanWeaponry-1.14.4-2.0.0-beta-3.jar Spartan Weaponry {spartanweaponry@2.0.0 beta 3 DONE}
+		furniture-7.0.0-pre15-1.14.4.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre15 DONE}
+		playertrackingcompass_1.14-1.2.jar Player Tracking Compass {playertrackingcompass@1.2 DONE}
+		ToastControl-1.14.4-2.2.0.jar Toast Control {toastcontrol@2.2.0 DONE}
+		KM_Horse_Barding1.0.0-1.14.4.jar Horse Barding {horsebarding@1.0.0-1.14.4 DONE}
+		CarryOn MC1.14.4 v1.12.4.jar Carry On {carryon@1.12.4 DONE}
+		confdespawntimer_1.14-1.3.jar Configurable Despawn Timer {confdespawntimer@1.3 DONE}
+		branders-sulfur-potassium-2.3.0-1.14.4-.jar Sulfur And Potassium - make gunpowder {sulfurpotassiummod@2.3.0 DONE}
+		firstaid-1.7.12.jar First Aid {firstaid@1.7.12 DONE}
+		forge-1.14.4-28.2.0-universal.jar Forge {forge@28.2.0 DONE}
+		Quark-r2.0-212.jar Quark {quark@r2.0-212 DONE}
+		SoundFilters-0.14_for_1.14.4.jar Sound Filters {soundfilters@0.14_for_1.14.4 DONE}
+		NetherEx-1.14.4-3.1.1.jar NetherEx {netherex@3.1.1 DONE}
+		LibraryEx-1.14.4-2.1.1.jar LibraryEx {libraryex@2.1.1 DONE}
+		Hardcore Battle towers AV.jar Hardcore Battle Towers AV {hardcore_battle_towers_av_av@2.0.2 DONE}
+	Player Count: 1 / 8; [ServerPlayerEntity['AlexiosTheSixth'/652, l='Make sure nothing blows up', x=47.51, y=97.64, z=327.82]]
+	Data Packs: vanilla, netherex:netherex_nether_biome_pack, netherex:default_nether_biome_pack, mod:arl, mod:astikorcarts, mod:baubles, mod:betteranimals, mod:carryon, mod:climaticbiomes, mod:clumps, mod:collective, mod:confdespawntimer, mod:craftableslimeballs, mod:environs, mod:firstaid, mod:forge, mod:guardvillagers, mod:hardcore_battle_towers_av_av, mod:horsebarding, mod:jei, mod:journeymap, mod:libraryex, mod:lostcities, mod:mobeffects, mod:mobsunscreen, mod:modnametooltip, mod:netherex, mod:netherportalspread, mod:norecipebook, mod:placebo, mod:playertrackingcompass, mod:quark, mod:roughmobsrevamped, mod:sndctrl, mod:soundfilters, mod:spartanshields, mod:spartanweaponry (incompatible), mod:swingthroughgrass, mod:toastcontrol, mod:toolbelt, mod:trapcraft, mod:treeharvester, mod:villagernames, mod:villagespawnpoint, mod:waystones, mod:cfm, mod:guncus, mod:nomadictents, mod:obfuscate, mod:sulfurpotassiummod, mod:vehicle
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

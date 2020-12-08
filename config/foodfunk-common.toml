@@ -1,0 +1,20 @@
+
+#Debugging settings
+[Debugging]
+	#Speed or slow all rot. < 1 faster, > 1 slower.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	rotMultiplier = 1.0
+	#Enable general debug features, display extra debug info
+	debug = false
+
+#General settings
+[General]
+	#Allows stacking of items created around same time.  Higher values will increase stacking at cost of strange initial rot percentage.
+	#Range: 0 ~ 100
+	chunkingPercentage = 1
+	#Ticks between evaluating for rot and preservation.  Increase to reduce CPU expense, in exchange for longer delays seeing rot and preservation.
+	#Range: > 1
+	evaluationInterval = 90
+	#Configured items rot over time.
+	enabled = true
+
